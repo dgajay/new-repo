@@ -6,29 +6,29 @@ a:link {
     width:150px;
 }
 
-.login-box, .register-box {
+.login-box{
     width: 340px;
     margin: 2% auto;
 }
 .login-logo {
     margin-top: 50px;
 }
-.login-logo, .register-logo {
+.login-logo{
     font-size: 35px;
     text-align: center;
     margin-bottom: 25px;
     font-weight: 300;
 }
-.login-box-body, .register-box-body {
+.login-box-body{
     background: #fff;
     padding: 20px;
     border-top: 0;
     color: #666;
 }
-.login-box-body .form-control-feedback, .register-box-body .form-control-feedback {
+/* .login-box-body .form-control-feedback, .register-box-body .form-control-feedback {
     color: #777;
-}
-.login-box-msg, .register-box-msg {
+} */
+.login-box-msg{
     margin: 0;
     text-align: center;
     padding: 0 20px 20px 20px;
@@ -43,7 +43,7 @@ background-color: #f0ad4e;
 .has-feedback {
     position: relative;
 }
-.glyphicon {
+/* .glyphicon {
     position: relative;
     top: 1px;
     display: inline-block;
@@ -53,7 +53,7 @@ background-color: #f0ad4e;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
+} */
 .form-control-feedback {
     position: absolute;
     top: 0;
@@ -69,16 +69,16 @@ background-color: #f0ad4e;
 .bg-olive-active {
     background-color: #368763 !important;
 }
-.bg-red, .bg-yellow, .bg-aqua, .bg-blue, .bg-light-blue, .bg-green, .bg-navy, .bg-teal, .bg-olive, .bg-lime, .bg-orange, .bg-fuchsia, .bg-purple, .bg-maroon, .bg-black, .bg-red-active, .bg-yellow-active, .bg-aqua-active, .bg-blue-active, .bg-light-blue-active, .bg-green-active, .bg-navy-active, .bg-teal-active, .bg-olive-active, .bg-lime-active, .bg-orange-active, .bg-fuchsia-active, .bg-purple-active, .bg-maroon-active, .bg-black-active, .callout.callout-danger, .callout.callout-warning, .callout.callout-info, .callout.callout-success, .alert-success, .alert-danger, .alert-error, .alert-warning, .alert-info, .label-danger, .label-info, .label-warning, .label-primary, .label-success, .modal-primary .modal-body, .modal-primary .modal-header, .modal-primary .modal-footer, .modal-warning .modal-body, .modal-warning .modal-header, .modal-warning .modal-footer, .modal-info .modal-body, .modal-info .modal-header, .modal-info .modal-footer, .modal-success .modal-body, .modal-success .modal-header, .modal-success .modal-footer, .modal-danger .modal-body, .modal-danger .modal-header, .modal-danger .modal-footer, .bg-blue-light, .bg-green-light, .bg-black-light, .bg-purple-light, .bg-red-light, .bg-yellow-light, .bg-yellow, .bg-yellow-light, .bg-orange {
+/* .bg-red, .bg-yellow, .bg-aqua, .bg-blue, .bg-light-blue, .bg-green, .bg-navy, .bg-teal, .bg-olive, .bg-lime, .bg-orange, .bg-fuchsia, .bg-purple, .bg-maroon, .bg-black, .bg-red-active, .bg-yellow-active, .bg-aqua-active, .bg-blue-active, .bg-light-blue-active, .bg-green-active, .bg-navy-active, .bg-teal-active, .bg-olive-active, .bg-lime-active, .bg-orange-active, .bg-fuchsia-active, .bg-purple-active, .bg-maroon-active, .bg-black-active, .callout.callout-danger, .callout.callout-warning, .callout.callout-info, .callout.callout-success, .alert-success, .alert-danger, .alert-error, .alert-warning, .alert-info, .label-danger, .label-info, .label-warning, .label-primary, .label-success, .modal-primary .modal-body, .modal-primary .modal-header, .modal-primary .modal-footer, .modal-warning .modal-body, .modal-warning .modal-header, .modal-warning .modal-footer, .modal-info .modal-body, .modal-info .modal-header, .modal-info .modal-footer, .modal-success .modal-body, .modal-success .modal-header, .modal-success .modal-footer, .modal-danger .modal-body, .modal-danger .modal-header, .modal-danger .modal-footer, .bg-blue-light, .bg-green-light, .bg-black-light, .bg-purple-light, .bg-red-light, .bg-yellow-light, .bg-yellow, .bg-yellow-light, .bg-orange {
     color: #fff !important;
-}
+} */
 .btn{
     color: #fff !important;
 } 
 .col-md-12{
     font-size: 14px;
 }  
-.fa {
+/* .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
@@ -88,7 +88,10 @@ background-color: #f0ad4e;
 }
 .fa-user:before {
     content: "\f007";
-}
+} */
 .col-xs-4 {
     width: 33.33333333%;
+}
+.footer {
+    font-size: 12px;
 }
